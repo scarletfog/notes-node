@@ -1,0 +1,28 @@
+{
+  "name": "notes-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "yargs": "^4.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "testapp": "test-app",
+    "test": "eslint --ignore-path .gitignore .",
+    "devserver": "./node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "keywords": [
+    "notes-node"
+  ],
+  "author": "AC",
+  "license": "ISC"
+}
